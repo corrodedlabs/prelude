@@ -34,7 +34,7 @@
 	  double-pointer->list)
 
   (import (chezscheme)
-	  (prelude))
+	  (prelude base))
 
   (define libc (load-shared-object "libc.so.6"))
 
